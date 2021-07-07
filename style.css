@@ -69,9 +69,41 @@
 .logo-cardano{
     margin-top: 20vh;
     margin-left: 10vh;
+    opacity: 0.7;
+    /* right: 5em; */
 }
 
+.logo-cardano-dup{
+    margin-top: 20vh;
+    margin-left: 10vh;
+    z-index: 1;
+}
+
+/* 
+In this small example, for the image and overlaying image to look
+good on mobile, set the width to 100% and the height to auto.
+
+.parent-img{
+    position: relative;
+}
+.parent-img-responsive{
+	width:100%;
+	height:auto;	
+} 
+
+.child-img{
+    position: absolute;
+    top: 0;
+    right: 0;
+} */
+
 .logo-pic{
+    width: 35em;
+    position: absolute;
+    right: -5em;
+}
+
+.logo-pic-dup{
     width: 35em;
 }
 
@@ -122,19 +154,32 @@ button{
 
 .info{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    height: 50em;
+    margin-top: 25vh;
+    margin-left: 22vh;
+    /* justify-content: space-around; */
+}
+
+.numbered-list{
+    width: 32%;
 }
 
 .asset-image{
-    width: 75%;
-    height: 75%;
+    max-width: 54%;
+    max-height: 90%;
+    position: absolute;
+    right: 0;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px 7px #eee;
+}
+
+.img-size{
+    width: 1100px;
+    height: 667px;
 }
 /* END OF SECOND SECTION */
 
-/* .google-play{
 
-} */
 
 
 
