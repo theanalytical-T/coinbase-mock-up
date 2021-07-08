@@ -148,15 +148,39 @@ button{
 /* END OF FIRST SECTION */
 
 /* START OF SECOND SECTION */
+.list{
+    display: flex;
+    margin-top: 2.5em;
+}
+
+.bullet-point{
+    padding: 12px;
+    text-align: center;
+    color: rgb(0, 82, 255); 
+    width: 60px;
+    height: 60px;
+    border-radius:50%;
+    margin-top: 5vh;
+    box-shadow: 0px 0px 10px 2px #eee;
+}
+
+.bullet-point-section{
+margin: 7vh 0vh 0vh 8vh;
+}
+
+.bullet-point-section p{
+margin-top: 1em;
+}
+
 .get-started{
     color: rgb(0, 82, 255); 
 }
 
 .info{
     display: flex;
-    height: 50em;
+    height: 60em;
     margin-top: 25vh;
-    margin-left: 22vh;
+    margin-left: 20vh;
     /* justify-content: space-around; */
 }
 
@@ -166,11 +190,11 @@ button{
 
 .asset-image{
     max-width: 54%;
-    max-height: 90%;
+    max-height: 96%;
     position: absolute;
     right: 0;
     overflow: hidden;
-    box-shadow: 0px 0px 10px 7px #eee;
+    box-shadow: 0px 0px 10px 4px #eee;
 }
 
 .img-size{
