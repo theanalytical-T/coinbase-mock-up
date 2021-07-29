@@ -405,7 +405,7 @@ li a:hover{
     body{
         max-width: 768px;
         overflow-x: hidden;
-    }
+}
 
     .top-nav{
     position: fixed;
@@ -434,6 +434,7 @@ li a:hover{
 
     .sign-up{
     margin-right: 5rem;
+    padding: 0.025rem .5rem .05rem;
 }
 
 /* .sign-up:hover{
@@ -442,23 +443,20 @@ li a:hover{
 } */
 
     .intro{
-    height: 40em;
+    height: 50em;
     width: 768px;
     display: flex;
     flex-direction: column;
-    margin-top: 3.5em;
+    /* margin-top: 3.5em; */
 }
 
 .beginning{
-    display: flex;
-    flex-direction: column;
     width: 100%;
-    /* margin-right: 0px; */
     height: 25em;
-    /* margin-top: 6em; */
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    /* line-height: 1.5rem; */
 }
 
 .beginning p{
