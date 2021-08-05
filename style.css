@@ -95,6 +95,7 @@ body{
 }
 
 .beginning{
+    height: 100vh;
     width: 425px;
     margin-right: 15vh;
     margin-top: 30vh;
@@ -400,80 +401,69 @@ li a:hover{
 }
 /* END OF FOOTER SECTION */
 
+/* When coding media queries, the sizes need to go in decending order
+(largest size at the top) otherwise the coding won't work */
 @media (max-width: 768px){
 
-    body{
-        max-width: 768px;
+     body {
+        /* margin-left: .8em; */
         overflow-x: hidden;
-}
+    }
 
     .top-nav{
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    max-width: 768px;
-}
-
-    .name-brand{
-    margin-left: .8em;
-    font-size: 24px;
+        position: fixed;
+        max-width: 768px;
 }
 
     .list-nav{
-    display: none;
+        display: none;
 }
 
-    .sign-in{
-    display: none;
+    .name-brand{
+        margin-left: .8em;
+        font-size: 24px;
+        font-weight: 500;
+        letter-spacing: 1.1;
 }
 
     .login{
-    margin-right: 0;
+        margin-right: 0;
+}
+
+    .sign-in{
+        display: none;
 }
 
     .sign-up{
-    margin-right: 5rem;
-    padding: 0.025rem .5rem .05rem;
-}
+        margin-right: 3.5rem;
 
-/* .sign-up:hover{
-    cursor: pointer;
-    transition: 150ms;
-} */
+}
 
     .intro{
-    height: 50em;
-    width: 768px;
-    display: flex;
-    flex-direction: column;
-    /* margin-top: 3.5em; */
-}
-
-.beginning{
-    width: 100%;
-    height: 25em;
-    margin: 0;
+    height: 100vh;
     padding: 0;
-    overflow-x: hidden;
-    /* line-height: 1.5rem; */
+    flex-direction: column;
 }
 
-.beginning p{
-    margin: 0vh 0vh;
+    .beginning{
+        margin: 0;
+        padding-top: 7em;
+        /* padding-left: 1.5em; */
+        height: 100vh;
+        overflow: hidden;
 }
 
-.logo-cardano{
-    margin-top: 10vh;
-    opacity: 0.7;
-    position: absolute;
-    right: 0em;
+    .logo-cardano{
+        margin-top: 10vh;
+        opacity: 0.7;
+        position: absolute;
+        right: 0em;
 }
 
-.logo-cardano-dup{
-    margin-top: 0vh;
-    margin-left: 0vh;
-    z-index: 1;
+    .logo-cardano-dup{
+        margin-top: 0vh;
+        margin-left: 0vh;
+        z-index: 1;
 }
 
 .logo-pic{
@@ -482,6 +472,22 @@ li a:hover{
 
 .logo-pic-dup{
     width: 15em;
+}
+
+
+
+/*
+    .beginning{
+    width: 100%;
+    height: 25em;
+    margin: 25px;
+    padding: 0;
+    overflow-x: hidden;
+    line-height: 1.5rem;
+}
+
+    .beginning p{
+    margin: 0vh 0vh;
 }
 
 .lead{
@@ -506,7 +512,7 @@ width: 8em;
 }
 /* END OF FIRST SECTION */
 
-/* START OF SECOND SECTION */
+/* START OF SECOND SECTION
 .list{
     display: flex;
     margin-top: 2.5em;
@@ -558,10 +564,10 @@ width: 8em;
 .img-size{
     width: 1100px;
     height: 667px;
-}
+} */
 /* END OF SECOND SECTION */
 
-/* START OF THIRD SECTION */
+/* START OF THIRD SECTION
 .cards-section{
     background-color: rgb(238, 238, 238);
     height: 50em;
@@ -611,10 +617,10 @@ width: 8em;
 
 .usa-icon, .pie-icon, .card-icon, .security-icon{
     margin-top: 3em;
-}
+} */
 /* END OF THIRD SECTION */
 
-/* START OF FOURTH SECTION */
+/* START OF FOURTH SECTION
 .mobile{
     display: flex;
     justify-content: space-between;
@@ -647,11 +653,11 @@ width: 8em;
 
 .apple-store{
     width: 24.3%;
-}
+} */
 /* END OF FOURTH SECTION */
 
-/* START OF 5TH SECTION */
-.buy-cardano{
+/*START OF 5TH SECTION */
+/* .buy-cardano{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -665,11 +671,11 @@ width: 8em;
 .buy-cardano p{
     color: rgba(255, 255, 255, .7);
     margin-top: 1em;
-}
+} */
 /* END OF 5TH SECTION */
 
 /* START OF FOOTER SECTION */
-
+/* 
 .copyright{
     color: rgb(17, 51, 85);
     opacity: 0.7;
@@ -693,8 +699,8 @@ width: 8em;
 
 .brand{
     font-size: 24px;
-}
-/* END OF FOOTER SECTION */
+} */
+/*END OF FOOTER SECTION*/
 }
 
 
